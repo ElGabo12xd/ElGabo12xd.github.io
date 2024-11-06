@@ -1,0 +1,174 @@
+/*GENERAL*/
+body{
+    margin: 0;
+    background: linear-gradient(#e29b99,#f2a8a8, #d8c093, #d6c086);
+    overflow-x: hidden
+}
+
+body::-webkit-scrollbar{
+    width: 5px;
+}
+
+body::-webkit-scrollbar-track{
+    background-color: #f2a9;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: #d8c093;
+    width: 2px;
+    border-radius: 200px;
+    border: 3px solid #f2a9a1;
+}
+
+ol{
+    font-family: sans-serif;
+    color: #fff8;
+    font-size: 1.3em;
+}
+
+ol:hover{
+    text-shadow: 0 0 10px #eee;
+}
+
+li{
+    color: #fff8;
+    font-family: sans-serif;
+    list-style: none;
+    padding: 5px 25px;
+    font-size: 1.2em;
+}
+
+li:hover{
+    text-shadow: 0 0 10px#eee;
+}
+
+li::before{
+    content: "-";
+}
+
+a{
+    text-decoration: none;
+    color: #eeeb;
+    font-family: sans-serif;
+    padding: 0 5px;
+}
+
+a:hover{
+    color: #eee;
+    font-size: 18px;
+    text-shadow: 0 0 10px #fff;
+}
+/*HEADER*/
+.focoOmori{
+    width: 100px;
+    position: absolute;
+    top: -10;
+    right: -1;
+    filter: drop-shadow(0 0 10px #000);
+}
+
+.focoOmori:hover{
+    filter: drop-shadow(0 0 15px #000);
+}
+
+.ImgRandom{
+    width: 100px;
+    position: absolute;
+    top: 0;
+    border: 1px solid #faaaaa;
+    border-radius: 100px 10px;
+}
+
+.ImgRandom:hover{
+    border-radius: 100px;
+}
+
+.Header_div{
+    
+    text-align: center;
+}
+
+.Header-title{
+    color: #eeeb;
+    font-family: "DMSans";
+    padding: 10px;
+    text-shadow: 0 0 13px #d8c09322;
+    text-decoration: underline;
+    font-size: 2.2em;
+}
+
+nav{
+    text-align: center;
+}
+
+/*ARTICLE1*/
+.first_section{
+    box-sizing: content-box;
+    padding: 10px;
+    margin: 10px 200px 50px;
+    border-left: 2px solid #fff;
+    background: linear-gradient( to right,#0002, transparent);
+    border-radius: 15px;
+}
+
+.article-title{
+    margin-left: 15px;
+    font-family: sans-serif;
+    color: #eee9;
+    font-size: 1.5em;
+}
+
+.Article_Div_Img{
+    text-align: center;
+    padding: 20px 0;
+}
+
+.Dios-Img{
+    width: 25%;
+    border: 2px dashed #444;
+    border-radius: 15px;
+}
+
+/*SECOND SECTION*/
+.Secondsection_Div{
+    background-color: red;
+    margin: 0 20px 0 0;
+    display: flex;
+    
+    text-align: center;
+}
+
+.Secondsections-Shadow:hover{
+    filter: drop-shadow(0 0 10px #ff0);
+}
+
+.Secondsection-Imgs{
+    width: 120px;
+    position: absolute;
+    top: 1140;
+    left: 800;
+}
+
+.Secondsection-ImgsDos{
+    width: 120px;
+    position: absolute;
+    top: 1203;
+    left: 900;
+}
+
+.Secondsection-ImgsTres{
+    width: 120px;
+    position: absolute;
+    top: 1235;
+    left: 740;
+}
+
+/*THIRD*/
+.Cajita_Img{
+    text-align: center;
+}
+
+.Img-Description{
+    width: 150px;
+    filter: drop-shadow(0 0 20px #ff0);
+}
